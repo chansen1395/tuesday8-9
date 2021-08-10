@@ -6,9 +6,26 @@
   display: none;
 }
 
+#info-showing {
+  display: none;
+}
+
+.info-showing {
+  display: none;
+}
+
 .clickable {
   cursor: pointer;
   color: #0088cc;
+}
+
+.clickableWal {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickableWal:hover {
+  text-decoration: underline;
 }
 
 .clickable:hover {

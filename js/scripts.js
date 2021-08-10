@@ -1,14 +1,10 @@
 $(document).ready(function() {
-  $(".clickable").click(function() {
+  $(".clickableWal").click(function() {
     $("#walrus-showing").toggle();
     $("#walrus-hidden").toggle();
   });
-
-  $(".clickShow").click(function() {
-    $("#walrus-showing").toggle();
+  $(".clickable").click(function() {
+    $("#info-showing").toggle();
+    $("#info-hidden").toggle();
   });
-  $(".clickHide").click(function() {
-    $("#walrus-showing").toggle();
-  });
-
 });
